@@ -1,5 +1,6 @@
 import traceback
 
+from FuncUtils.Func import Status, BMI
 from ui.MainWindow import Ui_MainWindow
 
 
@@ -33,3 +34,5 @@ class MainWindowExt(Ui_MainWindow):
 
     def process_close(self):
         self.MainWindow.close()
+    def show(self):
+        self.MainWindow.show()
