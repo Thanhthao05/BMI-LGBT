@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file '/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/MainWindow.ui'
+# Form implementation generated from reading ui file '/Users/tranchucan/Documents/GitHub/BMI-LGBT/BMI LGBT+/ui/MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
         self.pushButtonCalculate.setGeometry(QtCore.QRect(100, 307, 111, 41))
         self.pushButtonCalculate.setStyleSheet("background-color: rgb(170, 170, 127);")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/../images/ic_calculate.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("/Users/tranchucan/Documents/GitHub/BMI-LGBT/BMI LGBT+/ui/../images/ic_calculate.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonCalculate.setIcon(icon)
         self.pushButtonCalculate.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonCalculate.setObjectName("pushButtonCalculate")
@@ -58,7 +58,7 @@ class Ui_MainWindow(object):
         self.pushButtonClose.setGeometry(QtCore.QRect(310, 307, 101, 41))
         self.pushButtonClose.setStyleSheet("background-color: rgb(170, 170, 127);")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/../images/ic_close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("/Users/tranchucan/Documents/GitHub/BMI-LGBT/BMI LGBT+/ui/../images/ic_close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonClose.setIcon(icon1)
         self.pushButtonClose.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonClose.setObjectName("pushButtonClose")
@@ -77,7 +77,7 @@ class Ui_MainWindow(object):
         self.pushButtonClear.setObjectName("pushButtonClear")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 36))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 24))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -96,7 +96,7 @@ class Ui_MainWindow(object):
         self.label_4.setText(_translate("MainWindow", "BMI:"))
         self.label_5.setText(_translate("MainWindow", "Comment:"))
         self.label_6.setText(_translate("MainWindow", "(Kg)"))
-        self.label_7.setText(_translate("MainWindow", "(CM)"))
+        self.label_7.setText(_translate("MainWindow", "(M)"))
         self.label_8.setText(_translate("MainWindow", "kg/m2"))
         self.pushButtonCalculate.setText(_translate("MainWindow", "Calculate"))
         self.pushButtonClose.setText(_translate("MainWindow", "Close"))
