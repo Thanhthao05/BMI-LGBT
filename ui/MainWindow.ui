@@ -125,7 +125,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>(CM)</string>
+     <string>(M)</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -248,7 +248,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>36</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>
