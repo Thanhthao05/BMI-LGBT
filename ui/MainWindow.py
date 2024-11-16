@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\TeamProject\BMI-LGBT\ui\MainWindow.ui'
+# Form implementation generated from reading ui file '/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -15,10 +15,10 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(200, 65, 351, 41))
-        self.label.setStyleSheet("background-color: rgb(255, 255, 0);")
-        self.label.setObjectName("label")
+        self.labelB = QtWidgets.QLabel(parent=self.centralwidget)
+        self.labelB.setGeometry(QtCore.QRect(200, 65, 351, 41))
+        self.labelB.setStyleSheet("background-color: rgb(255, 255, 0);")
+        self.labelB.setObjectName("labelB")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(60, 140, 55, 16))
         self.label_2.setObjectName("label_2")
@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
         self.pushButtonCalculate.setGeometry(QtCore.QRect(100, 307, 111, 41))
         self.pushButtonCalculate.setStyleSheet("background-color: rgb(170, 170, 127);")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\TeamProject\\BMI-LGBT\\ui\\../images/ic_calculate.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/../images/ic_calculate.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonCalculate.setIcon(icon)
         self.pushButtonCalculate.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonCalculate.setObjectName("pushButtonCalculate")
@@ -58,7 +58,7 @@ class Ui_MainWindow(object):
         self.pushButtonClose.setGeometry(QtCore.QRect(310, 307, 101, 41))
         self.pushButtonClose.setStyleSheet("background-color: rgb(170, 170, 127);")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\TeamProject\\BMI-LGBT\\ui\\../images/ic_close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("/Users/ngothanh/Documents/GitHub/BMI-LGBT/ui/../images/ic_close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonClose.setIcon(icon1)
         self.pushButtonClose.setIconSize(QtCore.QSize(30, 30))
         self.pushButtonClose.setObjectName("pushButtonClose")
@@ -70,9 +70,14 @@ class Ui_MainWindow(object):
         self.labelComment.setGeometry(QtCore.QRect(140, 260, 271, 16))
         self.labelComment.setText("")
         self.labelComment.setObjectName("labelComment")
+        self.pushButtonClear = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonClear.setGeometry(QtCore.QRect(490, 310, 101, 41))
+        self.pushButtonClear.setStyleSheet("background-color: rgb(170, 170, 127);")
+        self.pushButtonClear.setIconSize(QtCore.QSize(30, 30))
+        self.pushButtonClear.setObjectName("pushButtonClear")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 36))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -85,7 +90,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">BMI Application</span></p></body></html>"))
+        self.labelB.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt;\">BMI Application</span></p></body></html>"))
         self.label_2.setText(_translate("MainWindow", "Weight:"))
         self.label_3.setText(_translate("MainWindow", "Height:"))
         self.label_4.setText(_translate("MainWindow", "BMI:"))
@@ -95,3 +100,4 @@ class Ui_MainWindow(object):
         self.label_8.setText(_translate("MainWindow", "kg/m2"))
         self.pushButtonCalculate.setText(_translate("MainWindow", "Calculate"))
         self.pushButtonClose.setText(_translate("MainWindow", "Close"))
+        self.pushButtonClear.setText(_translate("MainWindow", "Clear"))
